@@ -1,0 +1,10 @@
+{
+    "test_accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_score_macro": 1.0,
+    "final_train_accuracy": 0.9836,
+    "final_val_accuracy": 1.0,
+    "final_train_loss": 0.0878,
+    "final_val_loss": 0.0022
+}

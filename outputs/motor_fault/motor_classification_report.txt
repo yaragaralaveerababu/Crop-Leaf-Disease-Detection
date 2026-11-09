@@ -1,0 +1,30 @@
+AcenAAr Predictive Maintenance: Motor Fault Classification Report
+=================================================================
+
+1. RANDOM FOREST CLASSIFIER PERFORMANCE:
+Overall Accuracy: 100.00%
+                      precision    recall  f1-score   support
+
+              Normal     1.0000    1.0000    1.0000        38
+Mechanical Imbalance     1.0000    1.0000    1.0000        37
+       Bearing Fault     1.0000    1.0000    1.0000        38
+ Electrical Overload     1.0000    1.0000    1.0000        37
+
+            accuracy                         1.0000       150
+           macro avg     1.0000    1.0000    1.0000       150
+        weighted avg     1.0000    1.0000    1.0000       150
+
+=================================================================
+
+2. SUPPORT VECTOR MACHINE (SVM) PERFORMANCE:
+Overall Accuracy: 100.00%
+                      precision    recall  f1-score   support
+
+              Normal     1.0000    1.0000    1.0000        38
+Mechanical Imbalance     1.0000    1.0000    1.0000        37
+       Bearing Fault     1.0000    1.0000    1.0000        38
+ Electrical Overload     1.0000    1.0000    1.0000        37
+
+            accuracy                         1.0000       150
+           macro avg     1.0000    1.0000    1.0000       150
+        weighted avg     1.0000    1.0000    1.0000       150
