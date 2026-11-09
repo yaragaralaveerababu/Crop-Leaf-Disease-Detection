@@ -1,0 +1,62 @@
+# ==============================================================================
+# Git Ignore Configuration - AI Crop Leaf Disease Detection & Classification
+# AcenAAr Technologies Pvt. Ltd. & Joy University
+# Author: Yaragarla Veerababu (2023BTIA009)
+# ==============================================================================
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.venv
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Tool, Deep Learning & Framework Caches ---
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/
+.keras/
+.uv/
+
+# --- Temporary & Microsoft Office Lock Files ---
+~$*
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.log
+
+# --- Operating System Artifacts ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- SQLite Lock / WAL Files ---
+*.db-journal
+*.db-wal
+*.db-shm
+
